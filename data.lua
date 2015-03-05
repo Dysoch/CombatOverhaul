@@ -62,3 +62,20 @@ data.raw["ammo"]["piercing-shotgun-shell"].ammo_type.action.action_delivery.dire
 data.raw["ammo"]["piercing-shotgun-shell"].ammo_type.action.action_delivery.range_deviation = 1.2
 data.raw["ammo"]["piercing-shotgun-shell"].ammo_type.action.action_delivery.max_range = 30
 data.raw["ammo"]["piercing-shotgun-shell"].magazine_size = 5
+
+data.raw["turret"]["small-worm-turret"].attack_parameters.ammo_type.action.action_delivery.starting_speed = 1
+data.raw["turret"]["medium-worm-turret"].attack_parameters.ammo_type.action.action_delivery.starting_speed = 1
+data.raw["turret"]["big-worm-turret"].attack_parameters.ammo_type.action.action_delivery.starting_speed = 1
+data.raw["projectile"]["acid-projectile-purple"].collision_box = {{-0.05, -1}, {0.05, 1}}
+data.raw["projectile"]["acid-projectile-purple"].acceleration = -0.05
+data.raw["projectile"]["acid-projectile-purple"].direction_only = true
+data.raw["projectile"]["laser"].collision_box = {{-0.05, -1}, {0.05, 1}}
+data.raw["projectile"]["laser"].direction_only = true
+data.raw["projectile"]["blue-laser"].collision_box = {{-0.05, -1}, {0.05, 1}}
+data.raw["projectile"]["blue-laser"].direction_only = true
+data.raw["projectile"]["rocket"].collision_box = {{-0.05, -1}, {0.05, 1}}
+data.raw["projectile"]["rocket"].acceleration = 0.05
+data.raw["projectile"]["rocket"].direction_only = true
+data.raw["projectile"]["explosive-rocket"].collision_box = {{-0.05, -1}, {0.05, 1}}
+data.raw["projectile"]["explosive-rocket"].acceleration = 0.05
+data.raw["projectile"]["explosive-rocket"].direction_only = true
